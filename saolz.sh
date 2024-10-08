@@ -9,6 +9,6 @@ fi
 FILE_PATH="$1"
 
 # Upload the file using curl
-curl -X POST -F "file=@${FILE_PATH}" http://your-pythonanywhere-username.pythonanywhere.com/upload
+curl -X POST -F "file=@${FILE_PATH}" https://saolz.pythonanywhere.com/upload
 
 echo "Upload completed."
